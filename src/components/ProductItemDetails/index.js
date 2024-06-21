@@ -92,7 +92,7 @@ class ProductItemDetails extends Component {
       <h1 className="products-not-founf-heading">Product Not Found</h1>
       <Link to="/products">
         <button type="button" className="button">
-          Continue Shooping
+          Continue Shopping
         </button>
       </Link>
     </div>
