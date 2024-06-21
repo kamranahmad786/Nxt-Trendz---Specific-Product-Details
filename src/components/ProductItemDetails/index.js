@@ -128,7 +128,7 @@ class ProductItemDetails extends Component {
           <img src={imageUrl} alt="product" className="product-image" />
           <div className="product">
             <h1 className="product-name">{title}</h1>
-            <p className="price-details">Rs </p>
+            <p className="price-details">Rs {price}</p>
             <div className="rating-and-reviews-count">
               <div className="rating-container">
                 <p className="rating">{rating}</p>
