@@ -66,7 +66,7 @@ class ProductItemDetails extends Component {
       this.setState({
         productData: updatedData,
         similarProductsData: updatedSimilarProductsData,
-        apiStatus: apiStatusConstants,
+        apiStatus: apiStatusConstants.success,
       })
     }
     if (response.status === 404) {
